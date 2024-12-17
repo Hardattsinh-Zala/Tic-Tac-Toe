@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #F4D35E;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    color: black;
+    background-color: #EBEBD3;
+    border: 2px solid black;
+    font-size: 2rem;
+}
+
+.container {
+    height: 40vh;
+    width: 310px;
+    margin-bottom: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+}
+
+.reset,.newGame {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.winner {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hiden {
+    display: none;
+}
